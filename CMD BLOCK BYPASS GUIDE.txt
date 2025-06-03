@@ -1,0 +1,20 @@
+Hello. This is a guide to making and using your vaery own command prompt bypass tool for an average school computer.
+This will give you a basic knowledge of the creation, and usage of a .bat file called "cmd.bat"
+This is NOT a Blooket / Kahoot Hack.
+
+Firstly, open Notepad or a similair text editor of your choice.
+Next, type in the followning code:
+
+  @echo off
+  :start
+  SET /P com=
+  %com%
+  pause
+  goto :start
+
+Save this as "cmd.bat"
+
+Alternatively, download the file named "cmd.bat" in this directory
+
+NOTE: this has been tested in Windows 10/11 Professional and may not work on other OS.
+Enjoy!
